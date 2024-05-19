@@ -1,0 +1,83 @@
+EffectDef {
+ Emitors {
+  EmitorDef red_smoke {
+   ShapeType Point
+   ShapeSize 0 0.2 0
+   ConeAngle 360 0 20
+   MaxNum 90
+   BirthRate 60
+   BirthRateVel 0
+   Offset 0 0.04703 0
+   LocalTransform 0
+   Material "{8E25684854DAB008}graphics/particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 1.5
+   SizeRND 1
+   RandomRotDir 1
+   RotMultiplier 90
+   StretchMultiplier 1
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 2
+   VelocityRND 0
+   VelAffect 0.8
+   AirResistance 1
+   AirResistanceRND 0
+   Wind 1
+   AnimFPS 30
+   RandomFrame 0
+   LifeTime 0.6
+   LifeTimeRND 1
+   Color {
+    0 0 0 0 1 0.6941 0.6478 0.6478
+   }
+   Alpha {
+    0 0.08861 0.01118 0.29747 0.16165 0.31013 0.46776 0 1 0
+   }
+   Size {
+    0 0.29114 0.67068 0.63924 1 1
+   }
+   EffectTime 1
+   AlphaMast {
+    0 0.31646 0.18143 0.1962 1 0.18987
+   }
+  }
+  EmitorDef sparks_fire {
+   ConeAngle 360 0 30
+   MaxNum 20
+   BirthRate 1
+   BirthRateRND 10
+   LocalTransform 1
+   Material "{D252F1C26CBA12FA}graphics/particles/materials/fire/fire_flare_03.emat"
+   CenterX 0
+   CenterY -0.7
+   ScaleX 0.361
+   SizeMultiplier 0.3
+   SizeRND 0.1
+   RandomRotDir 0
+   StreakFullUV 0
+   VelAngle 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 0
+   AirResistance 0
+   Wind 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 0.11
+   LifeTimeRND 0.05
+   Color {
+    0 1 0.3608 0 1 0 0 0
+   }
+   Alpha {
+    0 1 1 1
+   }
+   Size {
+    0 0.0443 1 0.71519
+   }
+  }
+ }
+}

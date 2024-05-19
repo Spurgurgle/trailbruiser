@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BDA615EE5828D355}TrailTester/vehicles/trailtester/trailtester_thumbnail.edds"
+ Author "spurgs-pc"
+ ChangeDate 259172651
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "trailtester_thumbnail.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}
